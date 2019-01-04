@@ -1,0 +1,7 @@
+C:\Users\kubas\Programming\Git\Git\Console Notepad\notepad\ConsoleNotepad\bin\Debug\ConsoleNotepad.exe.config
+C:\Users\kubas\Programming\Git\Git\Console Notepad\notepad\ConsoleNotepad\bin\Debug\ConsoleNotepad.exe
+C:\Users\kubas\Programming\Git\Git\Console Notepad\notepad\ConsoleNotepad\bin\Debug\ConsoleNotepad.pdb
+C:\Users\kubas\Programming\Git\Git\Console Notepad\notepad\ConsoleNotepad\obj\Debug\ConsoleNotepad.csprojAssemblyReference.cache
+C:\Users\kubas\Programming\Git\Git\Console Notepad\notepad\ConsoleNotepad\obj\Debug\ConsoleNotepad.csproj.CoreCompileInputs.cache
+C:\Users\kubas\Programming\Git\Git\Console Notepad\notepad\ConsoleNotepad\obj\Debug\ConsoleNotepad.exe
+C:\Users\kubas\Programming\Git\Git\Console Notepad\notepad\ConsoleNotepad\obj\Debug\ConsoleNotepad.pdb
