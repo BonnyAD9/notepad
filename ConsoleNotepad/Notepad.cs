@@ -49,15 +49,19 @@ namespace ConsoleNotepad
         /// <returns>true if note exist in Notes and is deleted, false if note Title does not exist in Notes</returns>
         public bool RemoveNote(Note note)
         {
-            if (Notes.Exists(p => p.Title == note.Title))
+            if (note != null)
             {
-                Notes.Remove(Notes.Find(p => p.Title == note.Title));
-                return true;
+                if (Notes.Exists(p => p.Title == note.Title))
+                {
+                    Notes.Remove(Notes.Find(p => p.Title == note.Title));
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
             }
-            else
-            {
-                return false;
-            }
+            else return false;
         }
 
         /// <summary>

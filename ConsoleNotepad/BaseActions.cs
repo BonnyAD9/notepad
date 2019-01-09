@@ -140,7 +140,11 @@ namespace ConsoleNotepad
             JavaScriptSerializer jss = new JavaScriptSerializer();
             Notepad notepad = new Notepad();
             string s = File.ReadAllText(path);
-            notepad.Notes = jss.Deserialize<List<Note>>(s);
+            if (jss.Deserialize<List<Note>>(s) != null)
+            {
+                notepad.Notes = jss.Deserialize<List<Note>>(s);
+            }
+
             return notepad;
         }
     }
